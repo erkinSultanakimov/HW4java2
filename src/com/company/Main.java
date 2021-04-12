@@ -35,7 +35,6 @@ public class Main {
         }
         Print(listC);
 
-        System.out.println(listC);
         Comparator<String> bylength = new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
